@@ -1,0 +1,23 @@
+.slider-button {
+    width: 55px;
+    height: 55px;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid var(--color-brand-pimary-dark);
+    fill: var(--color-brand-pimary-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.slider-button:hover {
+    background-color: var(--color-brand-pimary-dark);
+    fill: var(--color-brand-primary-light);
+}
+
+.slider-button.after {
+    transform: rotate(180deg);
+}

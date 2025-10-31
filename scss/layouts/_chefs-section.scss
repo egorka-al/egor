@@ -1,0 +1,44 @@
+.chefs-section {
+  position: relative;
+  padding: 48px 0;
+
+  &__title {
+    position: relative;
+    text-align: center;
+    margin: 0 auto 80px;
+
+    &::before,
+    &::after {
+      position: absolute;
+      width: 352px;
+      bottom: 24px;
+      display: block;
+      border: 2px solid var(--color-brand-light);
+      content: '';
+    }
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      right: 0;
+    }
+    
+    
+  } // ← 🔹 здесь обязательно закрываем &__title!
+
+  &__item {
+    display: flex;
+    flex-basis: 629px; 
+  }
+
+  &__list {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    // flex-wrap: nowrap;
+   }
+
+}
+

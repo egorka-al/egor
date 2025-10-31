@@ -1,0 +1,42 @@
+.format-title {
+    margin-bottom: 80px;
+}
+
+.format-title .main{
+    text-align: center;
+}   
+
+.format-titles {
+    color: var(--color-brand-primary-light);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.format-description {
+    position: absolute;
+    bottom: 100;
+    // left: 0;
+    // right: 0;
+    color: var(--color-brand-primary-light);
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.formats-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.formats-section {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.main {
+    text-align: center;
+}
+
