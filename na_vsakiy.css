@@ -43,8 +43,6 @@ address {
     font-style: normal;
 }
 
-
-
 ul {
     margin: 0;
     padding: 0;
@@ -53,7 +51,6 @@ ul {
 
 .links {
     color: var(--color-brand-primary-light);
-    
     transition: color 1s, scale 0.5s;
 }
 

@@ -1,4 +1,5 @@
-.slider-button {
+.slider {
+&__button {
     width: 55px;
     height: 55px;
     padding: 0;
@@ -13,11 +14,12 @@
     flex-shrink: 0;
 }
 
-.slider-button:hover {
+&__button:hover {
     background-color: var(--color-brand-pimary-dark);
     fill: var(--color-brand-primary-light);
 }
 
-.slider-button.after {
+&__button.next {
     transform: rotate(180deg);
+}
 }

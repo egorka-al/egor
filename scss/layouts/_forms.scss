@@ -4,13 +4,8 @@
     font-family: Poppins, sans-serif;
     justify-content: center;
     align-items: center;
-}
 
-.form:focus {
-    border-color: var(--color-brand);
-}
-
-.input {
+&__input {
     width: 100%;
     height: 100%;
     max-width: 605px;
@@ -27,18 +22,34 @@
     overflow-y: auto;
 }
 
-.input::placeholder {
-    color: var(--color-brand-brown);
-    opacity: 1;
-}
-
-.input:focus {
+&__input:focus {
     border-color: var(--color-brand);
     outline: none;
     color: #31261A;
 }
 
-.form-field {
+&__input::placeholder {
+    color: var(--color-brand-brown);
+    opacity: 1;
+}
+
+&__input:focus::placeholder {
+    color: var(--color-brand-primary-dark);
+    opacity: 1;
+}
+
+&__form:focus {
+    border-color: var(--color-brand);
+}
+
+&__field {
     position: relative;
     width: 100%;
 }
+}
+
+
+
+
+
+

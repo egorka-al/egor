@@ -1,24 +1,32 @@
 .contact-section {
     padding-bottom: 96px;
-}
-
-.contact-title {
+    
+&__title {
     margin-bottom: 16px;
 }
 
-.contact-container {
+&__container {
     display: flex;
     gap: 32px;
 }
 
-.contact-p {
+&__p {
     font-size: 18px;
     font-weight: 300;
     font-family: Poppins, sans-serif;
     color: var(--color-brand-dark);
 }
 
-.contact-map {
+&__map {
     border-radius: 10px;
     flex-shrink: 0;
 }
+
+&__form {
+    width: 100%;
+    height: 100%;
+    max-width: 653px;
+    max-height: 612px;
+}
+
+} 

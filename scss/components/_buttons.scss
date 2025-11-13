@@ -1,6 +1,7 @@
 .button {
-    width: 248;
-    height: 59;
+    display: block;
+    width: 248px;
+    height: 59px;
     font-weight: 600;    
     font-size: 18px;
     border-width: 2px;
@@ -10,7 +11,7 @@
     border: 2px solid var(--color-brand);
     cursor: pointer;
     padding: 16px 32px;
-    /* margin: 32px; */
+    margin: 10px; 
 }
 
 .button:hover {

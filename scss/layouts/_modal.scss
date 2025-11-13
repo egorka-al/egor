@@ -10,13 +10,14 @@
     justify-content: center;
     padding: 20px;
     transition: opacity 0.4s, visibility 0.4s;
-}
 
-.backdrop.is-hidden {
+&.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
 }
+}
+
 
 .modal {
     position: relative;
@@ -27,9 +28,8 @@
     padding: 128px;
     background-color: var(--color-brand-primary-light);
     border-radius: 32px;
-}
 
-.modal::after {
+&::after {
     position: absolute;
     background-image: url('../images/decor-bread-modal.png');
     width: 180px;
@@ -41,21 +41,12 @@
     content: '';
 }
 
-.modal-btn-close {
-    position: absolute;
-    top: 40px;
-    right: 40px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.modal-heading {
+&__heading {
     text-align: center;
     font-size: 64px;
 }
 
-.modal-p {
+&__p {
     text-align: center;
     font-style: roboto, sans-serif;
     font-weight: 400;
@@ -64,7 +55,7 @@
     margin-bottom: 72px;
 }  
 
-.modal-policy {
+&__policy {
     font-size: 12px;
     font-weight: 500;
     text-align: center;
@@ -73,7 +64,18 @@
     text-underline-offset: 3px;
 }
 
-.modal-a {
+&__a {
     color: var(--color-brand-pimary-dark);
     text-decoration: underline;
+}
+}
+
+
+.modal-btn-close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
