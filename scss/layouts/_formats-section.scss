@@ -1,8 +1,15 @@
+.formats-section {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+}
+
 .format-title {
     margin-bottom: 80px;
 }
 
-.format-title .main{
+.centered {
     text-align: center;
 }   
 
@@ -29,14 +36,3 @@
     justify-content: space-between;
     /* flex-wrap: wrap; */
 }
-
-.formats-section {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-}
-
-.main {
-    text-align: center;
-}
-
